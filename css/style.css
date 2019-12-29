@@ -42,9 +42,12 @@ body {
 /*CSS MAIN BODY*/
 #main-body-wrapped {
     background: linear-gradient(white, #D3D8E8);
-    height:460px;
     width:100%;
 }
+#main-body-wrapped .container .inner iframe{
+    margin:20px 0px;
+}
+
 #main-body-wrapped .container .inner .main-sign{
     background:#fff;
     height:270px;
@@ -85,6 +88,7 @@ body {
     color:#fff;
     font-size:14px;
     border:#4267b2;
+font-weight:bold;
 }
 /*END CSS MAIN BODY*/
 /*CSS footer*/
@@ -96,6 +100,8 @@ body {
     font-size:12px;
     cursor:pointer;
     display:inline-block;
+	color:#385898;
+
 }
 #footer-wrapped .container .inner .dot{
     height:1px;
