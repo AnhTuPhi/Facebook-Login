@@ -1,0 +1,112 @@
+﻿/* COMMON CSS STYLE */
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* END COMMON CSS STYLE */
+
+#header-wrapped {
+    background: #3b5998;
+    width: 100%;
+    height:90px;
+}
+#header-wrapped .container .inner img{
+    height:35px;
+    width:160px;
+    display: block;
+    margin:30px 0px;
+}
+
+#header-wrapped .container .inner .button {
+    display:block;
+    margin:35px 0px;
+}
+#header-wrapped .container .inner .button button{
+    border:1px #42b72a;
+    font-weight:500;
+    cursor: pointer;
+    background: #42b72a;
+    color:#fff;
+    font-size:14px;
+    height:30px;
+    width:150px;
+}
+/*CSS MAIN BODY*/
+#main-body-wrapped {
+    background: linear-gradient(white, #D3D8E8);
+    height:460px;
+    width:100%;
+}
+#main-body-wrapped .container .inner .main-sign{
+    background:#fff;
+    height:270px;
+    width:100%;
+    margin:90px 0px;
+}
+#main-body-wrapped .container .inner .main-sign p{
+    margin:10px;
+    text-align:center;
+    color:#000;
+    font-size:21px;
+    display:block;
+}
+#main-body-wrapped .container .inner .main-sign  form{
+    margin:10px 200px;
+}
+#main-body-wrapped .container .inner .main-sign  form input{
+    display:block;
+    width:350px;
+    height:40px;
+}
+#main-body-wrapped .container .inner .main-sign .notice{
+    margin:0px 235px;
+
+}
+#main-body-wrapped .container .inner .main-sign .notice a{
+    margin:5px 10px;
+    font-size:14px;
+    display:inline-block;
+}
+#main-body-wrapped .container .inner .main-sign .btn-Sign {
+    margin:5px 200px;
+}
+#main-body-wrapped .container .inner .main-sign .btn-Sign button{
+    height:40px;
+    width:350px;
+    background-color: #4267b2;
+    color:#fff;
+    font-size:14px;
+    border:#4267b2;
+}
+/*END CSS MAIN BODY*/
+/*CSS footer*/
+#footer-wrapped{
+    margin:80px 0px 0px 0px;
+}
+#footer-wrapped .container .inner a{
+    margin:0px 6px;
+    font-size:12px;
+    cursor:pointer;
+    display:inline-block;
+}
+#footer-wrapped .container .inner .dot{
+    height:1px;
+    background:grey;
+    width:1120px;
+    margin:10px 0px;
+    display:block;
+}
+#footer-wrapped .container .inner .copy-right{
+    margin:5px 20px;
+}
+#footer-wrapped .container .inner .copy-right p{
+    font-size:10px;
+}
