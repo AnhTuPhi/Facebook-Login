@@ -8,7 +8,8 @@
     <meta name="description" content="Demo Facebook">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Facebook</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -24,14 +25,16 @@
 <body>
     <!--HTML HEADER-->
     <section id="header-wrapped" class="header-wrapped">
-        <div class="header-desktop hidden-sm hidden-xs">
+        <div class="header-desktop ">
             <div class="container">
                 <div class="inner">
                     <div class="row">
-                        <div class="col-lg-2 col-md-2">
-                            <img src="./images/brand-local.png" content="local-brand">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <div class="bg">
+                                <img src="./images/brand-local.png" content="local-brand">
+                            </div>
                         </div>
-                        <div class="col-lg-10 col-md-10">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <div class="button">
                                 <a href="#"><button id="btnSign">Tạo tài khoản mới</button></a>
                             </div>
@@ -48,27 +51,40 @@
         <div class="container">
             <div class="inner">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2"></div>
-                    <div class="col-lg-8 col-md-8">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                         <div class="main-sign">
-                                &nbsp
+                            &nbsp
                             <p>Đăng nhập Facebook</p>
-                            <form method="post">
-                                    <input type="text" name="username" placeholder=" Email hoặc số điện thoại" content="Email hoặc số điện thoại">
-                            </form>
-                            <form method="post">
-                                    <input type="text" name="password" placeholder=" Mật khẩu" content="Mật khẩu">
-                            </form>
-                            <div class="btn-Sign">
-                                    <a href="#"><button id="btn-Sign">Đăng nhập</button></a>
-                            </div>
-                            <div class="notice">
-                                    <a href="#">Quên mật khẩu?</a>
-                                    <a href="#">Đăng ký Facebook</a>
-                            </div>
+                            
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <form method="post">
+                                        <input type="text" name="username" placeholder=" Email hoặc số điện thoại"
+                                            content="Email hoặc số điện thoại">
+                                    </form>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <form method="post">
+                                        <input type="text" name="password" placeholder=" Mật khẩu" content="Mật khẩu">
+                                    </form>
+                                </div>
+                            
+
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="btn-Sign">
+                                        <a href="#"><button id="btn-Sign">Đăng nhập</button></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="notice">
+                                        <a href="#">Quên mật khẩu?</a>
+                                        <a href="#">Đăng ký Facebook</a>
+                                    </div>
+                                </div>
+                           
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
                 </div>
             </div>
         </div>
@@ -77,7 +93,7 @@
         <div class="container">
             <div class="inner">
                 <div class="row">
-                    <div class="col-lg-12 col=md-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <a href="#">Tiếng Việt
                         </a>
                         <a href="#">English (UK)
@@ -98,7 +114,9 @@
                         </a>
                         <a href="#">Italiano
                         </a>
-                        <div class="dot"></div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="dot"></div>
+                        </div>
                         <a href="#">Đăng ký</a>
                         <a href="#"></a>
                         <a href="#">Đăng nhập</a>
